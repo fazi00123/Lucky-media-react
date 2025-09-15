@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/kwadrat-na-strone-01.png"; // import the logo
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <footer className="bg-[#00FF9C] text-black pt-20 pb-8 px-6 md:px-12 lg:px-20 mt-36">
       <div className="max-w-full flex flex-col sm:flex-row flex-wrap justify-evenly gap-8">

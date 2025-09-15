@@ -3,7 +3,7 @@ import AnimacjaStrona from "../assets/animacjastrona.mp4";
 import FinalAnimacja from "../assets/finalanimacja.mp4";
 import GridImage from "../assets/grafika.png";
 
-const MediaGridSection = () => {
+const MediaGridSection: React.FC = () => {
   return (
     <section>
       <div className="grid mt-[77px] md:grid-cols-2 lg:grid-cols-3 lg:px-3 xl:px-[44px] xl:py-[44px]">

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const ScrollToTopButton = () => {
+const ScrollToTopButton: React.FC = () => {
   const [show, setShow] = useState(false);
 
   useEffect(() => {

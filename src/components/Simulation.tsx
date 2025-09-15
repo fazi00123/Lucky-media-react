@@ -1,7 +1,7 @@
 import React from "react";
 import artworkVideo from "../assets/Artwork-1.webm"; // ✅ Import video
 
-const Simulation = () => {
+const Simulation: React.FC = () => {
   return (
     <section className="mt-16 lg:mt-0 px-4 md:px-12 lg:px-20">
       <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">

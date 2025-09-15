@@ -2,7 +2,7 @@ import React from "react";
 
 import KonfederacjaImg from "../assets/konfederacja.png"; // Import local image
 
-const PublicRelationSection = () => {
+const PublicRelationSection: React.FC = () => {
   return (
     <section className="lg:mt-24 mt-16">
       <div className="flex lg:flex-row flex-col bg-black">

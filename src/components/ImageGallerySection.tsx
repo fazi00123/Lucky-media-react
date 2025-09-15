@@ -6,7 +6,7 @@ import Img2 from "../assets/2-scaled.jpg";
 import Img3 from "../assets/3-scaled.jpg";
 import Img4 from "../assets/doplakatu-2-scaled.jpg";
 
-const ImageGallerySection = () => {
+const ImageGallerySection: React.FC = () => {
   const images = [Img1, Img2, Img3, Img4];
 
   return (

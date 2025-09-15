@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Lottie from "react-lottie-player";
 import animationData from "../assets/Animation-1716207706875.json"; // JSON path
 
-const PortfolioSection = () => {
+const PortfolioSection: React.FC = () => {
 
   
 

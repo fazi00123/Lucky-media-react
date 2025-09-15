@@ -2,7 +2,7 @@ import React from "react";
 import linkedinBackground from "../assets/linkedin-background_Obszar-roboczy-1.png";
 import companyVideo from "../assets/animacja_ogolna_soundadded.mp4";
 
-const AudianceSection = () => {
+const AudianceSection: React.FC = () => {
   return (
     <section className="audience-section">
       <div className="flex flex-col lg:flex-row gap-8 sm:gap-10 md:gap-12 mt-10 sm:mt-16 md:mt-24 lg:mt-24">

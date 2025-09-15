@@ -14,7 +14,7 @@ import slide4 from "../assets/salider-scroll-1 (4).png";
 import menuVideo from "../assets/menu-unscreen.webm";
 import animacjaVideo from "../assets/animacja_tlo.mp4";
 
-const CustomDesignSection = () => {
+const CustomDesignSection: React.FC = () => {
   useEffect(() => {
     new Swiper(".mySwiper2", {
       effect: "coverflow",

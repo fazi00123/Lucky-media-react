@@ -9,7 +9,7 @@ import img4 from "../assets/152409888_261929842113353_1177262274334337968_n.jpg"
 // Import video
 import videoFile from "../assets/handicraftsmonth.mp4";
 
-const SamsaraSection = () => {
+const SamsaraSection: React.FC = () => {
   return (
     <section className="mt-20">
       <div className="w-full flex flex-col lg:flex-row">

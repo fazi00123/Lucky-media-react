@@ -2,7 +2,7 @@ import React from "react";
 import websiteImage from "../assets/screeny-1280x853.png";
 import applyFormVideo from "../assets/worktodaytypeform.mp4";
 
-const WebsiteFormSection = () => {
+const WebsiteFormSection: React.FC = () => {
   return (
     <section className="md:pt-28 pt-16 lg:px-16 md:px-12 px-5">
       <div className="flex flex-col lg:flex-row w-full gap-10 xl:gap-20">

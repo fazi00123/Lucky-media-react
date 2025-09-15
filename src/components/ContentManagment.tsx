@@ -4,7 +4,7 @@ import postyImage1 from "../assets/konfa-01.png";
 // If you want video instead
 // import postyVideo from "../assets/video/posty-flex.mp4";
 
-const ContentManagment = () => {
+const ContentManagment: React.FC = () => {
   return (
     <section>
       <div className="flex flex-col lg:flex-row items-center gap-12 2xl:gap-36 mt-16 2xl:mt-24 px-5 sm:px-12 lg:px-0 lg:pl-12 xl:pl-16">

@@ -1,6 +1,6 @@
 import React from "react";
 
-const BrandingExcellence = () => {
+const BrandingExcellence: React.FC = () => {
   return (
     <section>
       <div className="bg-[#171717] mt-28">

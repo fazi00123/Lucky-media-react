@@ -2,7 +2,7 @@ import React from "react";
 import Lottie from "react-lottie-player";
 import animationData from "../assets/karty-najnowsze.json"; // JSON path
 
-const ContactSection = () => {
+const ContactSection: React.FC = () => {
   return (
     <section className="px-4 sm:px-8 md:px-16 lg:px-40 xl:px-28 py-10 lg:py-20 mt-14">
       <div className="lg:border-4 border border-black flex flex-col xl:flex-row w-full rounded-2xl sm:p-10 lg:p-12 gap-10">

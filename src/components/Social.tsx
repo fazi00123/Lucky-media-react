@@ -25,7 +25,7 @@ import slider2Img4 from "../assets/salider1 (4).png";
 import slider2Img5 from "../assets/salider1 (5).png";
 import slider2Img6 from "../assets/salider1 (6).png";
 
-const Social = () => {
+const Social: React.FC = () => {
   return (
     <section>
       <div className="bg-black flex flex-col lg:flex-row py-16 2xl:py-24 mt-20">

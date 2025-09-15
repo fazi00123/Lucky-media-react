@@ -3,7 +3,7 @@ import React from "react";
 import LogoVideo from "../assets/finalanimacja.mp4"; // import your video
 
 
-const LogoAnimationSection = () => {
+const LogoAnimationSection: React.FC = () => {
   return (
     <section className="mt-10">
       <div className="flex flex-col lg:flex-row 2xl:gap-52 xl:gap-20 gap-10 xl:pl-16 md:px-12 lg:px-0">

@@ -34,6 +34,7 @@ import ServicesVideoSection from "../components/ServicesVideoSection";
 import EndSection from "../components/EndSection";
 
 import Footer from "../components/Footer";
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 const Portfolio: React.FC = () => {
   return (
@@ -73,6 +74,7 @@ const Portfolio: React.FC = () => {
         <EndSection />
 
       <Footer />
+      <ScrollToTopButton />
     </>
   );
 };

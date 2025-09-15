@@ -6,7 +6,7 @@ import reviewVideo from "../assets/100_review.mp4";
 import animationVideo from "../assets/animation.mp4";
 import likesVideo from "../assets/100likes-size.mp4";
 
-const VideoAdvertising = () => {
+const VideoAdvertising: React.FC = () => {
   return (
     <section className="bg-[#00FF9C] px-10 py-20 border-b-4 border-black">
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10">

@@ -1,6 +1,6 @@
 import React from "react";
 
-const StepsSection = () => {
+const StepsSection: React.FC = () => {
   return (
     <section className="py-10 md:px-5 md:py-14 lg:py-16">
       {/* Heading */}

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ServicesSection() {
+const ServicesSection: React.FC = () => {
   return (
     <section className="sm:p-8 md:p-16 mt-16 sm:mt-32">
       {/* Top section */}
@@ -113,3 +113,5 @@ export default function ServicesSection() {
     </section>
   );
 }
+
+export default ServicesSection;

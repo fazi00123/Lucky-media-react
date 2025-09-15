@@ -3,7 +3,7 @@ import logo from "../assets/logo-svg.png";
 import { NavLink } from "react-router-dom"; // 👈 NavLink use karenge
 import ContactPopup from "./ContactPopup";
 
-export default function Navbar() {
+const Navbar: React.FC = () => {
   const [popupOpen, setPopupOpen] = useState(false);
 
   return (
@@ -84,3 +84,5 @@ export default function Navbar() {
     </>
   );
 }
+
+export default Navbar;

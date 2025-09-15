@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Lottie from "react-lottie-player";
 import animationData from "../assets/Animation-1716206787868.json"; // JSON path
 
-export default function HeroSection() {
+const HeroSection: React.FC = () => {
   const [hoverKey, setHoverKey] = useState(0); // har hover pe reset key change hoga
 
   const handleMouseEnter = () => {
@@ -59,3 +59,4 @@ export default function HeroSection() {
     </section>
   );
 }
+export default HeroSection;

@@ -2,7 +2,7 @@ import React from "react";
 import fitdietaImg from "../assets/fitdieta.png"; // ✅ import image
 
 
-const QuickBrandBooster = () => {
+const QuickBrandBooster: React.FC = () => {
   return (
     <section className="w-full flex flex-col lg:flex-row mt-0">
       {/* ========== Left Side (Image Area) ========== */}

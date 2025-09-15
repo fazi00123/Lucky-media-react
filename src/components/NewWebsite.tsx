@@ -1,7 +1,7 @@
 import React from "react";
 import fit8Img from "../assets/fit8-01.png"; // ✅ Import image
 
-const NewWebsite = () => {
+const NewWebsite: React.FC = () => {
   return (
     <section>
       <div className="flex flex-col lg:flex-row items-center gap-12 mt-16">

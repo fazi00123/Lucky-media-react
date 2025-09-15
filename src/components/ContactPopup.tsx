@@ -1,9 +1,13 @@
 import React from "react";
-// import Lottie from "lottie-react";
 import { motion, AnimatePresence } from "framer-motion";
-import cardAnimation from "../assets/karty-najnowsze.json";
+// import Lottie from "lottie-react"; // Agar Lottie use karna hai to install aur uncomment karein
+// import cardAnimation from "../assets/karty-najnowsze.json"; // Agar Lottie file chahiye to yeh bhi uncomment karein
+interface ContactPopupProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
 
-const ContactPopup = ({ isOpen, onClose }) => {
+const ContactPopup: React.FC<ContactPopupProps> = ({ isOpen, onClose }) =>  {
   return (
     <AnimatePresence>
       {isOpen && (
@@ -41,12 +45,12 @@ const ContactPopup = ({ isOpen, onClose }) => {
                 {/* Left Text */}
                 <div className="w-full xl:w-2/5 p-6 text-center lg:text-left">
                   <h1 className="text-[25px] sm:text-[40px] md:text-[50px] lg:text-[54px] font-extrabold leading-tight pt-6 mb-24">
-                    It might be your <br className="lg:hidden block" />{" "}
-                    <span className="text-[#00ff99]">lucky draw!</span>{" "}
+                    It might be your <br className="lg:hidden block" />
+                    <span className="text-[#00ff99]">lucky draw!</span>
                     <br className="lg:hidden block" /> Contact us today.
                   </h1>
 
-                  {/* Lottie Animation */}
+                  {/* Agar Lottie Animation chahiye to uncomment karo */}
                   {/* <div className="mb-6">
                     <Lottie
                       animationData={cardAnimation}

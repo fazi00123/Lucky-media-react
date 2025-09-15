@@ -1,6 +1,6 @@
 import React from "react";
 
-const EndSection = () => {
+const EndSection: React.FC = () => {
   return (
     <section className="w-full py-16 bg-white text-center">
       {/* Text */}

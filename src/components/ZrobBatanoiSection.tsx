@@ -11,7 +11,7 @@ import Banner from "../assets/poprawny-banner-01.png";
 // 🔹 Import video
 import VideoFile from "../assets/animacja-koty (1).mp4";
 
-const ZrobBatanoiSection = () => {
+const ZrobBatanoiSection: React.FC = () => {
   return (
     <section>
       <div className="lg:flex lg:flex-row flex-col">
