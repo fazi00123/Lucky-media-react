@@ -9,14 +9,14 @@ const ContactSection: React.FC = () => {
         
         {/* Left Text */}
         <div className="w-full xl:w-2/5  text-center lg:text-left">
-          <h2 className="text-[25px] sm:text-[40px] md:text-[50px] lg:text-[59px] font-[800] leading-tight mb-32">
+          <h2 className="text-[25px] sm:text-[40px] md:text-[50px] lg:text-[59px] font-[800] leading-tight 2xl:mb-32 mb-14">
             It might be your <br className="2xl:block hidden" />
             <span className="text-[#00ff99]">lucky draw!</span> <br className="2xl:block hidden" />
             Contact us today.
           </h2>
 
           {/* Lottie Animation */}
-          <div>
+          <div className="2xl:w-[550px] 2xl:h-[350px] xl:h-[280px] 2xl:pl-12">
           <Lottie
             loop
             play
@@ -25,7 +25,7 @@ const ContactSection: React.FC = () => {
           />
           </div>
 
-          <p className="text-base md:text-[22px] lg:text-[27px] 2xl:text-3xl leading-[28px] sm:leading-[36px] md:leading-[44px] lg:leading-[48px] 2xl:leading-[60px] font-normal mt-4 text-[#171717] px-5 md:px-0">
+          <p className="text-base md:text-[22px] lg:text-2xl 2xl:text-3xl leading-[28px] sm:leading-[36px] md:leading-[44px] lg:leading-10 2xl:leading-[60px] font-normal mt-4 text-[#171717] px-5 md:px-0">
             Your business seems to be stuck at some level? Maybe you are about
             to finalize your dream ideas and kick off with a new venture? Let
             us know what’s on your mind, and we’ll see how we can assist you.
