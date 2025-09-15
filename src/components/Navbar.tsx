@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
       {/* Custom CSS for Text Shadow & Active Link */}
       <style>{`
         .hover-text-shadow-up:hover {
-          text-shadow: 0 -3px 6px rgba(0, 255, 204, 1);
+          text-shadow: 0 -5px 4px #00ff9c;
         }
 
         /* Active link style */

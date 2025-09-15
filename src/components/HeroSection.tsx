@@ -1,13 +1,15 @@
-import React, { useState } from "react";
+import React, { useRef } from "react";
 import Lottie from "react-lottie-player";
-import animationData from "../assets/Animation-1716206787868.json"; // JSON path
+import animationData from "../assets/Animation-1716206787868.json";
 
 const HeroSection: React.FC = () => {
-  const [hoverKey, setHoverKey] = useState(0); // har hover pe reset key change hoga
+  const lottieRef = useRef<any>(null); // Reference to Lottie instance
 
   const handleMouseEnter = () => {
-    // key badalne se animation dobara se start hoga
-    setHoverKey((prev) => prev + 1);
+    if (lottieRef.current) {
+      lottieRef.current.stop(); // Stop current animation
+      lottieRef.current.play(); // Restart from beginning
+    }
   };
 
   return (
@@ -28,19 +30,21 @@ const HeroSection: React.FC = () => {
         </div>
 
         {/* Lottie animation hover par reset */}
-        <div
-          className="w-full flex justify-center items-center"
-          onMouseEnter={handleMouseEnter}
-        >
-          <div className="w-[584px]">
-            <Lottie
-              key={hoverKey} // har hover par animation reset hoga
-              play
-              loop={false} // sirf ek baar chalega
-              animationData={animationData}
-            />
-          </div>
+          
+      <div
+        className="w-full flex justify-center"
+        onMouseEnter={handleMouseEnter}
+      >
+        <div className="w-[584px]">
+          <Lottie
+            ref={lottieRef} // Attach ref to Lottie instance
+            play
+            loop={false}
+            animationData={animationData}
+            rendererSettings={{ preserveAspectRatio: 'xMidYMid slice' }}
+          />
         </div>
+      </div>
 
         <div className="text-center justify-center flex pt-6 sm:pt-8 lg:pt-10">
           <a href="https://8hnya0u21xs.typeform.com/to/UNfLKWnc?typeform-source=luckymedia.marketing">

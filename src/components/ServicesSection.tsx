@@ -18,7 +18,7 @@ const ServicesSection: React.FC = () => {
           </p>
         </div>
 
-        <div className="">
+        <div>
             <a href="https://8hnya0u21xs.typeform.com/to/UNfLKWnc?typeform-source=luckymedia.marketing">
           <button className="relative flex items-center justify-center rounded-lg border-[5px] border-black hover:border-transparent px-4 sm:px-6 py-2 text-white transition-all duration-500 group  bg-black hover:bg-white group-hover:bg-transparent">
             {/* Normal text */}
