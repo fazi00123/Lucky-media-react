@@ -18,13 +18,13 @@ const ServicesSection: React.FC = () => {
           </p>
         </div>
 
-        <div>
+        <div className="lg:mt-6 xl:mt-0">
             <a href="https://8hnya0u21xs.typeform.com/to/UNfLKWnc?typeform-source=luckymedia.marketing">
-          <button className="relative flex items-center justify-center rounded-lg border-[5px] border-black hover:border-transparent px-4 sm:px-6 py-2 text-white transition-all duration-500 group  bg-black hover:bg-white group-hover:bg-transparent">
+          <button className="relative flex items-center justify-center rounded-lg border-[5px] border-black hover:border-transparent px-4 sm:px-6 py-3 text-white transition-all duration-500 group  bg-black hover:bg-white group-hover:bg-transparent">
             {/* Normal text */}
             <span className="transition-all text-sm sm:text-xl md:text-2xl duration-500 group-hover:opacity-0 whitespace-nowrap font-semibold p-1">
               Get a service quote within
-              <br className="hidden lg:block" />
+              <br className="hidden lg:block 2xl:hidden" />
               24 hours!
             </span>
 

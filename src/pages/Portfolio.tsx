@@ -21,7 +21,7 @@ import PublicRelationSection from "../components/PublicRelationSection";
 import PoliticalCompaign from "../components/PoliticalCompaign";
 import ImageGallerySection from "../components/ImageGallerySection";
 import ContentManagment from "../components/ContentManagment";
-// import SocialMediaPostsSection from "../components/SocialMediaPostsSection";
+import PostsSection from "../components/PostsSection";
 import BradingAdvertising from "../components/BradingAdvertising";
 import SamsaraSection from "../components/SamsaraSection";
 import CustomDesignSection from "../components/CustomDesignSection";
@@ -61,7 +61,7 @@ const Portfolio: React.FC = () => {
         <PoliticalCompaign />
         <ImageGallerySection />
         <ContentManagment />
-        {/* <SocialMediaPostsSection /> */}
+        <PostsSection />
         <BradingAdvertising />
         <SamsaraSection />
         <CustomDesignSection />

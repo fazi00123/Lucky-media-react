@@ -63,22 +63,45 @@
 //   );
 // }
 
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
+import Preloader from "./components/Preloader";
+import "./App.css";
+
+const PageWrapper: React.FC = () => {
+  const [loading, setLoading] = useState(true);
+  const location = useLocation();
+
+  useEffect(() => {
+    setLoading(true);
+    const timer = setTimeout(() => setLoading(false), 2000); // 2 sec delay
+    return () => clearTimeout(timer);
+  }, [location.pathname]);
+
+  return (
+    <>
+      <Preloader show={loading} />
+      {!loading && (
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+        </Routes>
+      )}
+    </>
+  );
+};
 
 const App: React.FC = () => {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-      </Routes>
+      <PageWrapper />
     </Router>
   );
 };
 
 export default App;
+
 
 

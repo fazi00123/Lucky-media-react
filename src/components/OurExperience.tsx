@@ -4,10 +4,14 @@ import img1 from "../assets/img-1 (2).png";
 import img2 from "../assets/img-2.png";
 import img3 from "../assets/img-3.png";
 import img4 from "../assets/img-4.png";
+// import { style } from "framer-motion/client";
+import "./OurExperince.css";
 
 
 const OurExperience: React.FC = () => {
   return (
+
+    
     <section>
       <div>
         {/* 🔸 Heading */}
@@ -42,6 +46,7 @@ const OurExperience: React.FC = () => {
 
       {/* 🔹 Image Grid Below Description */}
       <div className="flex md:flex-row flex-col justify-center xl:gap-16 gap-5 space-y-6 px-5 lg:px-10 2xl:px-40">
+        
         {/* First Row */}
         <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
           <img
