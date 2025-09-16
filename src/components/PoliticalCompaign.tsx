@@ -1,23 +1,24 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import PoliticalSlider from "./PoliticalSlider";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { Navigation } from "swiper/modules";
 import Bookimg from "../assets/ulotka2-01-980x766.png";
 // import "swiper/css";
 // import "swiper/css/navigation";
 
 // 🔹 Apni images ko assets folder me rakho
-import videoMockup from "../assets/Object_6.webm";
-// import img1 from "../assets/walentynki.png";
-// import img2 from "../assets/thanks you.jpg";
-// import img3 from "../assets/loading.jpg";
-// import img4 from "../assets/reklama-01.png";
-// import img5 from "../assets/scannenenwerken-01.png";
-// import img6 from "../assets/square-01.png";
-// import img7 from "../assets/engineering_Obszar-roboczy-1.png";
-// import img8 from "../assets/Find-your-match-here-3.png";
-// import img9 from "../assets/mechanic11-01.png";
-// import img10 from "../assets/musicday-fb_Obszar-roboczy-1.png";
-// import img11 from "../assets/certified-01.png";
+// import videoMockup from "../assets/Object_6.webm";
+// import img1 from "../assets/book-1 (1).jpg";
+// import img2 from "../assets/book-1 (2).jpg";
+// import img3 from "../assets/book-1 (3).jpg";
+// import img4 from "../assets/book-1 (4).jpg";
+// import img5 from "../assets/book-1 (5).jpg";
+// import img6 from "../assets/book-1 (6).jpg";
+// import img7 from "../assets/book-1 (1).jpg";
+// import img8 from "../assets/book-1 (2).jpg";
+// import img9 from "../assets/book-1 (3).jpg";
+// import img10 from "../assets/book-1 (5).jpg";
+// import img11 from "../assets/book-1 (6).jpg";
 
 const PoliticalCompaign: React.FC = () => {
   return (
@@ -50,14 +51,16 @@ const PoliticalCompaign: React.FC = () => {
         {/* 🔸 Right Content */}
         <div className="w-full lg:w-2/3 mt-24 lg:mt-0 px-4">
           {/* Swiper Slider */}
-          <Swiper
+
+          <PoliticalSlider />
+          {/* <Swiper
             modules={[Navigation]}
             navigation
             spaceBetween={20}
             slidesPerView={1}
             className="mySwiper"
           >
-            {/* <SwiperSlide>
+            <SwiperSlide>
               <img src={img1} alt="Social Post" width="100%" />
             </SwiperSlide>
             <SwiperSlide>
@@ -89,8 +92,8 @@ const PoliticalCompaign: React.FC = () => {
             </SwiperSlide>
             <SwiperSlide>
               <img src={img11} alt="Social Post" width="100%" />
-            </SwiperSlide> */}
-          </Swiper>
+            </SwiperSlide>
+          </Swiper> */}
 
           {/* Description */}
           <div className="text-center flex justify-center mt-10">

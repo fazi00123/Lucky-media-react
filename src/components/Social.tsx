@@ -1,23 +1,21 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, EffectCoverflow } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/effect-coverflow";
+// import "swiper/css";
+// import "swiper/css/navigation";
+// import "swiper/css/effect-coverflow";
 
 import "./Social.css";
 
 // Import images
 import phoneImg1 from "../assets/7.png";
 import phoneImg2 from "../assets/gta-0111.png";
-
 import sliderImg1 from "../assets/4-salider (1).png";
 import sliderImg2 from "../assets/4-salider (2).png";
 import sliderImg3 from "../assets/4-salider (3).png";
 import sliderImg4 from "../assets/4-salider (4).png";
 import sliderImg5 from "../assets/4-salider (5).png";
 import sliderImg6 from "../assets/4-salider (7).png";
-
 import slider2Img1 from "../assets/salider1 (1).png";
 import slider2Img2 from "../assets/salider1 (2).png";
 import slider2Img3 from "../assets/salider1 (3).png";

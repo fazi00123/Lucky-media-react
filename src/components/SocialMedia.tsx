@@ -1,22 +1,8 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
-// import "swiper/css";
-// import "swiper/css/navigation";
 
-// 🔹 Apni images ko assets folder me rakho
+import SocialSlider from "./SocialSlider";
 import videoMockup from "../assets/Object_6.webm";
-// import img1 from "../assets/walentynki.png";
-// import img2 from "../assets/thanks you.jpg";
-// import img3 from "../assets/loading.jpg";
-// import img4 from "../assets/reklama-01.png";
-// import img5 from "../assets/scannenenwerken-01.png";
-// import img6 from "../assets/square-01.png";
-// import img7 from "../assets/engineering_Obszar-roboczy-1.png";
-// import img8 from "../assets/Find-your-match-here-3.png";
-// import img9 from "../assets/mechanic11-01.png";
-// import img10 from "../assets/musicday-fb_Obszar-roboczy-1.png";
-// import img11 from "../assets/certified-01.png";
+
 
 const SocialMedia: React.FC = () => {
   return (
@@ -55,47 +41,7 @@ const SocialMedia: React.FC = () => {
         {/* 🔸 Right Content */}
         <div className="w-full lg:w-2/3 mt-24 lg:mt-0 px-4">
           {/* Swiper Slider */}
-          <Swiper
-            modules={[Navigation]}
-            navigation
-            spaceBetween={20}
-            slidesPerView={1}
-            className="mySwiper"
-          >
-            {/* <SwiperSlide>
-              <img src={img1} alt="Social Post" width="100%" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={img2} alt="Social Post" width="100%" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={img3} alt="Social Post" width="100%" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={img4} alt="Social Post" width="100%" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={img5} alt="Social Post" width="100%" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={img6} alt="Social Post" width="100%" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={img7} alt="Social Post" width="100%" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={img8} alt="Social Post" width="100%" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={img9} alt="Social Post" width="100%" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={img10} alt="Social Post" width="100%" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={img11} alt="Social Post" width="100%" />
-            </SwiperSlide> */}
-          </Swiper>
+          <SocialSlider />
 
           {/* Description */}
           <div className="text-center flex justify-center mt-10">

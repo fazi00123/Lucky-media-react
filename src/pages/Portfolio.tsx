@@ -10,6 +10,7 @@ import SocialMedia from "../components/SocialMedia";
 import VideoGrid from "../components/VideoGrid";
 import PaidAds from "../components/PaidAds";
 import BrandingExcellence from "../components/BrandingExcellence";
+import EmblaCarousel from "../components/EmblaCarousel";
 import QuickBrandBooster from "../components/QuickBrandBooster";
 import NewWebsite from "../components/NewWebsite";
 import Simulation from "../components/Simulation";
@@ -50,7 +51,8 @@ const Portfolio: React.FC = () => {
        <VideoGrid />
        <PaidAds />
         <BrandingExcellence />
-        <QuickBrandBooster />
+        <EmblaCarousel />
+        <QuickBrandBooster />''
         <NewWebsite />
         <Simulation />
         <LogoAnimationSection />
