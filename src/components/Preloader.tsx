@@ -31,8 +31,8 @@ const Preloader: React.FC<PreloaderProps> = ({ show }) => {
         muted
         playsInline
         style={{
-          width: "120px",
-          height: "120px",
+          width: "150px",
+          height: "150px",
           marginBottom: "16px",
           animation: "pulse 1.5s infinite",
         }}

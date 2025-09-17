@@ -1,13 +1,11 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, EffectCoverflow, Autoplay } from "swiper/modules";
-
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
 import "./SocialSlider.css";
-import { sliderConfig } from "./sliderConfig";
-
+import { sliderConfig } from "../sliderConfig";
 // Alag-alag imports
 import img1 from "../assets/walentynki.png";
 import img2 from "../assets/employ.png";

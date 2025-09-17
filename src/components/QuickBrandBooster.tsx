@@ -6,11 +6,11 @@ const QuickBrandBooster: React.FC = () => {
   return (
     <section className="w-full flex flex-col lg:flex-row mt-0">
       {/* ========== Left Side (Image Area) ========== */}
-      <div className="bg-[#00FF9C] flex justify-center items-center w-full lg:w-1/2 p-6 sm:p-8 md:p-14">
+      <div className="bg-[#00FF9C] flex justify-center items-center w-full lg:w-1/2 py-14 lg:px-20">
         <img
           src={fitdietaImg} // ✅ imported image use here
           alt="FitDieta Branding"
-          className="max-w-[250px] sm:max-w-[300px] md:max-w-[500px] lg:max-w-full"
+          className="max-w-[250px] sm:max-w-[300px] lg:max-w-full"
         />
       </div>
 
