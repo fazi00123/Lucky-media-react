@@ -2,11 +2,11 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, EffectCoverflow, Autoplay } from "swiper/modules";
 
-// import "swiper/css";
-// import "swiper/css/navigation";
-// import "swiper/css/effect-coverflow";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/effect-coverflow";
 import "./SocialSlider.css";
-// import { sliderConfig } from "./sliderConfig";
+import { sliderConfig } from "./sliderConfig";
 
 // Alag-alag imports
 import img1 from "../assets/walentynki.png";
@@ -27,7 +27,7 @@ const SocialSlider: React.FC = () => {
     <div className="swiper-container">
       <Swiper
         modules={[Navigation, EffectCoverflow, Autoplay]}
-        // {...sliderConfig}
+        {...sliderConfig}
         className="mySwiper w-full"
       >
         <SwiperSlide><img src={img1} alt="slide1" /></SwiperSlide>

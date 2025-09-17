@@ -76,7 +76,7 @@ const PageWrapper: React.FC = () => {
 
   useEffect(() => {
     setLoading(true);
-    const timer = setTimeout(() => setLoading(false), 2000); // 2 sec delay
+    const timer = setTimeout(() => setLoading(false), 3000); // 2 sec delay
     return () => clearTimeout(timer);
   }, [location.pathname]);
 

@@ -1,4 +1,5 @@
 import React from "react";
+import SocialMediaSlider from "./SocialMediaSlider";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, EffectCoverflow } from "swiper/modules";
 // import "swiper/css";
@@ -16,12 +17,7 @@ import sliderImg3 from "../assets/4-salider (3).png";
 import sliderImg4 from "../assets/4-salider (4).png";
 import sliderImg5 from "../assets/4-salider (5).png";
 import sliderImg6 from "../assets/4-salider (7).png";
-import slider2Img1 from "../assets/salider1 (1).png";
-import slider2Img2 from "../assets/salider1 (2).png";
-import slider2Img3 from "../assets/salider1 (3).png";
-import slider2Img4 from "../assets/salider1 (4).png";
-import slider2Img5 from "../assets/salider1 (5).png";
-import slider2Img6 from "../assets/salider1 (6).png";
+
 
 const Social: React.FC = () => {
   return (
@@ -106,7 +102,10 @@ const Social: React.FC = () => {
           </div>
 
           {/* Second Swiper */}
-          <Swiper
+          <div className="2xl:px-40 xl:px-20 md:px-10">
+            <SocialMediaSlider />
+          </div>
+          {/* <Swiper
             modules={[Navigation, Autoplay]}
             navigation
             autoplay={{ delay: 2500, disableOnInteraction: false }}
@@ -121,7 +120,7 @@ const Social: React.FC = () => {
             <SwiperSlide><img src={slider2Img4} alt="Slider 4" className="w-full h-[400px] object-cover" /></SwiperSlide>
             <SwiperSlide><img src={slider2Img5} alt="Slider 5" className="w-full h-[400px] object-cover" /></SwiperSlide>
             <SwiperSlide><img src={slider2Img6} alt="Slider 6" className="w-full h-[400px] object-cover" /></SwiperSlide>
-          </Swiper>
+          </Swiper> */}
         </div>
       </div>
     </section>

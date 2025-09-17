@@ -1,45 +1,45 @@
-import React, { useEffect } from "react";
-import Swiper from "swiper";
+import React from "react";
+import CustomSlider from "./CustomSlider";
+// import Swiper from "swiper";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
 
 // 🖼️ Import Images
-import slide1 from "../assets/salider-scroll-1 (1).png";
-import slide2 from "../assets/salider-scroll-1 (2).png";
-import slide3 from "../assets/salider-scroll-1 (3).png";
-import slide4 from "../assets/salider-scroll-1 (4).png";
-
+// import slide1 from "../assets/salider-scroll-1 (1).png";
+// import slide2 from "../assets/salider-scroll-1 (2).png";
+// import slide3 from "../assets/salider-scroll-1 (3).png";
+// import slide4 from "../assets/salider-scroll-1 (4).png";
 // 🎥 Import Videos
 import menuVideo from "../assets/menu-unscreen.webm";
 import animacjaVideo from "../assets/animacja_tlo.mp4";
 
 const CustomDesignSection: React.FC = () => {
-  useEffect(() => {
-    new Swiper(".mySwiper2", {
-      effect: "coverflow",
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: "auto",
-      loop: true,
-      speed: 800,
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-      },
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  }, []);
+  // useEffect(() => {
+  //   new Swiper(".mySwiper2", {
+  //     effect: "coverflow",
+  //     grabCursor: true,
+  //     centeredSlides: true,
+  //     slidesPerView: "auto",
+  //     loop: true,
+  //     speed: 800,
+  //     coverflowEffect: {
+  //       rotate: 50,
+  //       stretch: 0,
+  //       depth: 100,
+  //       modifier: 1,
+  //       slideShadows: true,
+  //     },
+  //     autoplay: {
+  //       delay: 2500,
+  //       disableOnInteraction: false,
+  //     },
+  //     navigation: {
+  //       nextEl: ".swiper-button-next",
+  //       prevEl: ".swiper-button-prev",
+  //     },
+  //   });
+  // }, []);
 
   return (
     <section>
@@ -77,7 +77,10 @@ const CustomDesignSection: React.FC = () => {
         {/* 🔸 Right Side Content */}
         <div className="w-full lg:w-2/3 mt-16 lg:mt-0 px-4">
           {/* Swiper Slider */}
-          <div className="w-full">
+          <div className="2xl:px-40 xl:px-20 md:px-10 rounded-none">
+          <CustomSlider />
+          </div>
+          {/* <div className="w-full">
             <div className="swiper mySwiper2 overflow-hidden">
               <div className="swiper-wrapper">
                 {[slide1, slide2, slide3, slide4].map((slide, index) => (
@@ -91,11 +94,11 @@ const CustomDesignSection: React.FC = () => {
                 ))}
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* 🔹 Description Video */}
           <div className="w-full flex justify-center items-center pt-20">
-            <div className="">
+            <div className="xl:px-40 md:px-10">
               <video
                 className="w-full h-full object-cover"
                 autoPlay
