@@ -22,7 +22,7 @@ import Bookimg from "../assets/ulotka2-01-980x766.png";
 
 const PoliticalCompaign: React.FC = () => {
   return (
-    <section id="Political">
+    <section>
       <div className="bg-black flex flex-col lg:flex-row py-20 mt-16">
         {/* 🔸 Left Content */}
         <div className="w-full lg:w-1/3">

@@ -3,7 +3,7 @@ import fit8Img from "../assets/fit8-01.png"; // ✅ Import image
 
 const NewWebsite: React.FC = () => {
   return (
-    <section id="websites">
+    <section>
       <div className="flex flex-col lg:flex-row items-center gap-12 mt-16">
         
         {/* Left Side Content */}

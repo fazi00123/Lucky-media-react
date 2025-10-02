@@ -1,6 +1,6 @@
 import React from "react";
 
-// images ko one by one import karein
+// images import
 import social1 from "../assets/social1.png";
 import social2 from "../assets/social2.png";
 import social3 from "../assets/social3.png";
@@ -9,20 +9,93 @@ import social5 from "../assets/social5.png";
 import social6 from "../assets/social6.png";
 import social7 from "../assets/social7.png";
 
-const images = [social1, social2, social3, social4, social5, social6, social7];
-
 const PostsSection: React.FC = () => {
   return (
-    <section className="2xl:pt-20 pt-10 xl:mx-10 mx-5">
-      <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
-        {images.map((src, index) => (
+    <section className="p-6">
+      <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 2xl:gap-10">
+        <a
+          href="https://www.facebook.com/grzegorz.michal.braun/videos/1779157145917907"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
-            key={index}
-            src={src}
-            alt={`post-${index + 1}`}
-            className="w-full rounded-lg break-inside-avoid border-[5px] border-[#00FF9C] hover:scale-105 transition-transform duration-300"
+            src={social1}
+            alt="post-1"
+            className="mb-6 2xl:mb-10 w-full rounded-lg break-inside-avoid border-[6px] border-[#00FF9C]"
           />
-        ))}
+        </a>
+
+        <a
+          href="https://www.facebook.com/grzegorz.michal.braun/videos/1779157145917907"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={social2}
+            alt="post-2"
+            className="mb-6 2xl:mb-10 w-full rounded-lg break-inside-avoid border-[6px] border-[#00FF9C]"
+          />
+        </a>
+
+        <a
+          href="https://www.facebook.com/grzegorz.michal.braun/videos/1779157145917907"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={social3}
+            alt="post-3"
+            className="mb-6 2xl:mb-10 w-full rounded-lg break-inside-avoid border-[6px] border-[#00FF9C]"
+          />
+        </a>
+
+        <a
+          href="https://www.facebook.com/grzegorz.michal.braun/videos/1779157145917907"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={social4}
+            alt="post-4"
+            className="mb-6 2xl:mb-10 w-full rounded-lg break-inside-avoid border-[6px] border-[#00FF9C]"
+          />
+        </a>
+
+        <a
+          href="https://www.facebook.com/grzegorz.michal.braun/videos/1779157145917907"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={social5}
+            alt="post-5"
+            className="mb-6 2xl:mb-10 w-full rounded-lg break-inside-avoid border-[6px] border-[#00FF9C]"
+          />
+        </a>
+
+        <a
+          href="https://www.facebook.com/grzegorz.michal.braun/videos/1779157145917907"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={social6}
+            alt="post-6"
+            className="mb-6 2xl:mb-10 w-full rounded-lg break-inside-avoid border-[6px] border-[#00FF9C]"
+          />
+        </a>
+
+        <a
+          href="https://www.facebook.com/grzegorz.michal.braun/videos/1779157145917907"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={social7}
+            alt="post-7"
+            className="mb-6 2xl:mb-10 w-full rounded-lg break-inside-avoid border-[6px] border-[#00FF9C]"
+          />
+        </a>
       </div>
     </section>
   );

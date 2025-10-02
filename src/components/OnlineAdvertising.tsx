@@ -3,7 +3,7 @@ import reklamaImage from "../assets/reklama-01.png"; // ✅ React me image impor
 
 const OnlineAdvertising: React.FC = () => {
   return (
-    <section className="w-full flex flex-col lg:flex-row mt-20 sm:mt-16 md:mt-20 lg:mt-28">
+    <section id="advertising" className="w-full flex flex-col lg:flex-row mt-20 sm:mt-16 md:mt-20 lg:mt-28">
       {/* 🔸 Left Side: Image */}
       <div className="bg-[#00FF9C] flex justify-center items-center w-full lg:w-1/2 p-8 md:p-10 lg:p-14">
         <img

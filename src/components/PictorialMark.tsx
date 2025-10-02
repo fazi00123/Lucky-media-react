@@ -3,7 +3,7 @@ import pictorialLogo from "../assets/logo_x_1080x1080_Obszar-roboczy-1-150x150.p
 
 const PictorialMark: React.FC = () => {
   return (
-    <section id="pictorial">
+    <section>
       <div className="flex flex-col lg:flex-row items-center gap-8 sm:gap-10 md:gap-12 mt-10 sm:mt-16 md:mt-24 lg:mt-32 2xl:mt-20 ">
         {/* 🔸 Left Side Content */}
         <div className="lg:w-1/2 w-full text-center lg:text-left px-5 sm:px-8 md:px-12 xl:px-16">

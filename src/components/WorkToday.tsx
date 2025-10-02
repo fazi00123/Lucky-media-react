@@ -4,7 +4,7 @@ import KonfederacjaImg from "../assets/black1.png"; // Import local image
 
 const WorkToday: React.FC = () => {
   return (
-    <section className="lg:mt-24 mt-16">
+    <section id="worktoday" className="lg:mt-24 mt-16">
       <div className="flex lg:flex-row flex-col bg-black">
 
         {/* Left side */}

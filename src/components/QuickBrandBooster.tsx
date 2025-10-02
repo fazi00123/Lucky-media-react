@@ -4,7 +4,7 @@ import fitdietaImg from "../assets/fitdieta.png"; // ✅ import image
 
 const QuickBrandBooster: React.FC = () => {
   return (
-    <section className="w-full flex flex-col lg:flex-row mt-0">
+    <section id="fitdieta" className="w-full flex flex-col lg:flex-row mt-0">
       {/* ========== Left Side (Image Area) ========== */}
       <div className="bg-[#00FF9C] flex justify-center items-center w-full lg:w-1/2 py-14 lg:px-20">
         <img

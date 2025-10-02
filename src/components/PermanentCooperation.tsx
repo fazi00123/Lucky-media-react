@@ -3,7 +3,7 @@ import logoImg from "../assets/logo_blue_Obszar-roboczy-1-1.png"; // 👈 image 
 
 const PermanentCooperation: React.FC = () => {
   return (
-    <section className="w-full flex flex-col lg:flex-row mt-10 sm:mt-16 md:mt-20 lg:mt-28">
+    <section id="flextoday" className="w-full flex flex-col lg:flex-row mt-10 sm:mt-16 md:mt-20 lg:mt-28">
       {/* 🔸 Left Side: Logo/Image */}
       <div className="bg-[#00FF9C] flex justify-center items-center w-full lg:w-1/2 p-4 sm:p-6 md:p-8 lg:p-10">
         <img src={logoImg} alt="Permanent Cooperation Logo" className="max-w-full h-auto" />

@@ -3,7 +3,7 @@ import SelfLabImage from "../assets/selflab.png"
 
 const SelfLabSection: React.FC = () => {
   return (
-    <section className="mt-[90px] mb-24">
+    <section id="selflab" className="mt-[90px] mb-24">
       <div className="lg:flex">
 
         {/* Left side */}

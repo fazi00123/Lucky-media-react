@@ -21,7 +21,7 @@ import sliderImg6 from "../assets/4-salider (7).png";
 
 const Social: React.FC = () => {
   return (
-    <section id="social">
+    <section>
       <div className="bg-black flex flex-col lg:flex-row py-16 2xl:py-24 mt-20">
         {/* Left Content */}
         <div className="w-full lg:w-1/3">

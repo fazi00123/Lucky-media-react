@@ -2,7 +2,7 @@ import React from "react";
 
 const EndSection: React.FC = () => {
   return (
-    <section id="contact" className="w-full py-16 bg-white text-center">
+    <section className="w-full py-16 bg-white text-center">
       {/* Text */}
       <div className="w-full text-center font-[600] flex justify-center items-center px-4 sm:px-6 md:px-10">
         <p className="text-[24px] sm:text-[32px] md:text-[40px] lg:text-[47px] 

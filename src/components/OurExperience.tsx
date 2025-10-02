@@ -12,7 +12,7 @@ const OurExperience: React.FC = () => {
   return (
 
     
-    <section id="experience">
+    <section>
       <div>
         {/* 🔸 Heading */}
         <div className="text-center w-full items-center justify-center flex mt-10 sm:mt-16 md:mt-20 lg:mt-28">
