@@ -16,7 +16,7 @@ const PostsSection: React.FC = () => {
         <a
           href="https://www.facebook.com/grzegorz.michal.braun/videos/1779157145917907"
           target="_blank"
-          rel="noopener noreferrer"
+          rel=""
         >
           <img
             src={social1}
@@ -26,9 +26,9 @@ const PostsSection: React.FC = () => {
         </a>
 
         <a
-          href="https://www.facebook.com/grzegorz.michal.braun/videos/1779157145917907"
+          href="https://www.facebook.com/photo.php?fbid=1046228660403382&set=a.314970213529234&type=3&ref=embed_post"
           target="_blank"
-          rel="noopener noreferrer"
+          rel=""
         >
           <img
             src={social2}
@@ -38,9 +38,9 @@ const PostsSection: React.FC = () => {
         </a>
 
         <a
-          href="https://www.facebook.com/grzegorz.michal.braun/videos/1779157145917907"
+          href="https://www.facebook.com/photo.php?fbid=987443179407340&set=a.329001718584826&type=3&ref=embed_post"
           target="_blank"
-          rel="noopener noreferrer"
+          rel=""
         >
           <img
             src={social3}
@@ -50,9 +50,9 @@ const PostsSection: React.FC = () => {
         </a>
 
         <a
-          href="https://www.facebook.com/grzegorz.michal.braun/videos/1779157145917907"
+          href="https://www.facebook.com/watch/?v=405294525335835"
           target="_blank"
-          rel="noopener noreferrer"
+          rel=""
         >
           <img
             src={social4}
@@ -62,9 +62,9 @@ const PostsSection: React.FC = () => {
         </a>
 
         <a
-          href="https://www.facebook.com/grzegorz.michal.braun/videos/1779157145917907"
+          href="https://www.facebook.com/photo.php?fbid=1025671582897900&set=a.173225041475896&type=3&ref=embed_post"
           target="_blank"
-          rel="noopener noreferrer"
+          rel=""
         >
           <img
             src={social5}
@@ -74,9 +74,9 @@ const PostsSection: React.FC = () => {
         </a>
 
         <a
-          href="https://www.facebook.com/grzegorz.michal.braun/videos/1779157145917907"
+          href="https://www.facebook.com/photo.php?fbid=974342778030781&set=a.173225041475896&type=3&ref=embed_post"
           target="_blank"
-          rel="noopener noreferrer"
+          rel=""
         >
           <img
             src={social6}
@@ -86,9 +86,9 @@ const PostsSection: React.FC = () => {
         </a>
 
         <a
-          href="https://www.facebook.com/grzegorz.michal.braun/videos/1779157145917907"
+          href="https://www.facebook.com/photo.php?fbid=1000088314809493&set=a.329001731918158&type=3&ref=embed_post"
           target="_blank"
-          rel="noopener noreferrer"
+          rel=""
         >
           <img
             src={social7}
