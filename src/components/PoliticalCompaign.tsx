@@ -22,7 +22,7 @@ import Bookimg from "../assets/ulotka2-01-980x766.png";
 
 const PoliticalCompaign: React.FC = () => {
   return (
-    <section>
+    <section id="Political">
       <div className="bg-black flex flex-col lg:flex-row py-20 mt-16">
         {/* 🔸 Left Content */}
         <div className="w-full lg:w-1/3">
@@ -49,7 +49,7 @@ const PoliticalCompaign: React.FC = () => {
         </div>
 
         {/* 🔸 Right Content */}
-        <div className="w-full lg:w-2/3 mt-24 lg:mt-0 px-4">
+        <div className="w-full lg:w-2/3 mt-24 lg:mt-0 md:px-4 px-5">
           {/* Swiper Slider */}
 
           <PoliticalSlider />
@@ -97,7 +97,7 @@ const PoliticalCompaign: React.FC = () => {
 
           {/* Description */}
           <div className="text-center flex justify-center mt-10">
-            <p className="text-white text-[15px] sm:text-[18px] md:text-[20px] leading-[28px] md:leading-[36px] text-center w-[80%]">
+            <p className="text-white text-[15px] sm:text-[18px] md:text-[20px] leading-[28px] md:leading-[36px] text-center md:w-[80%]">
               Photo shoots, graphics and written content – Conducting a political campaign is uniquely challenging, where every word and image must be carefully crafted, knowing that even the smallest misstep can be used against you. In politics, precision is key—every message must be clear, strategic, and aligned with the party’s values. We must understand the issues and the audience, ensuring that every piece of content strengthens the campaign’s position while avoiding potential pitfalls.
             </p>
           </div>

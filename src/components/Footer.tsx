@@ -1,14 +1,20 @@
-import React from "react";
+import { Link } from "react-router-dom";
+import React, { useState } from "react";
 import logo from "../assets/kwadrat-na-strone-01.png"; // import the logo
 
 const Footer: React.FC = () => {
-  return (
-    <footer className="bg-[#00FF9C] text-black pt-20 pb-8 px-6 md:px-12 lg:px-20 mt-36">
-      <div className="max-w-full flex flex-col sm:flex-row flex-wrap justify-evenly gap-8">
+  const [openPolicy, setOpenPolicy] = useState<string | null>(null);
 
+  const togglePolicy = (policy: string) => {
+    setOpenPolicy(openPolicy === policy ? null : policy);
+  };
+
+  return (
+    <footer className="bg-[#00FF9C] text-black pt-20 pb-8 px-6 md:px-12 lg:px-20">
+      <div className="max-w-full flex flex-col sm:flex-row flex-wrap justify-evenly gap-8">
         {/* Logo + Social */}
         <div className="flex flex-col items-center sm:items-start">
-          <div className=" mb-4">
+          <div className="mb-4">
             <img className="w-[223px] sm:w-[137px] rounded-lg" src={logo} alt="Logo" />
           </div>
           <div className="flex items-center gap-3 flex-wrap justify-center sm:justify-start pt-4">
@@ -27,11 +33,10 @@ const Footer: React.FC = () => {
           <h3 className="font-bold text-[26px]">We are open!</h3>
 
           {/* Large screen */}
-          <div className="hidden sm:block sm:flex gap-10 item-center pt-6">
+          <div className="hidden sm:flex gap-10 items-center pt-6">
             <div className="flex justify-center sm:justify-start">
               <p className="font-bold">Monday -</p>
               <p className="font-bold">Friday</p>
-              
             </div>
             <div className="flex justify-center sm:justify-start">
               <p>08:00 -</p>
@@ -65,22 +70,65 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Links */}
-        <div className="flex flex-col gap-8 text-center sm:text-left">
-          {/* <a href="#" className="font-bold">Site map</a> */}
-          <a href="#" className="font-bold">Privacy policy</a>
-          <a href="#" className="font-bold">Cookies policy</a>
-        </div>
+        {/* Links with Smooth Dropdown */}
+        <div className="flex flex-col gap-4 text-center sm:text-left w-full sm:w-auto">
+          {/* Privacy Policy */}
+          <div>
+            <a
+              href="#"
+              className="font-bold cursor-pointer"
+              onClick={(e) => {
+                e.preventDefault();
+                togglePolicy("privacy");
+              }}
+            >
+              Privacy policy
+            </a>
+            <div
+              className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                openPolicy === "privacy" ? "max-h-40 opacity-100 mt-2" : "max-h-0 opacity-0"
+              }`}
+            >
+              <div className="pt-2 shadow text-sm leading-6 ">
+                By providing us with any <br /> information, you agree to <br /> the processing of data in accordance <br /> with the <Link to="/Privacy" className="font-bold cursor-pointer">
+            Privacy policy
+          </Link>
+              </div>
+            </div>
+          </div>
 
+          {/* Cookies Policy */}
+          <div>
+            <a
+              href="#"
+              className="font-bold cursor-pointer"
+              onClick={(e) => {
+                e.preventDefault();
+                togglePolicy("cookies");
+              }}
+            >
+              Cookies policy
+            </a>
+            <div
+              className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                openPolicy === "cookies" ? "max-h-40 opacity-100 mt-2" : "max-h-0 opacity-0"
+              }`}
+            >
+              <div className="pt-2 text-sm leading-6">
+                Get to know why we ask you to <br /> accept our <Link to="/Cookies" className="font-bold cursor-pointer">
+            Cookies policy
+          </Link>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Bottom Text */}
       <div className="text-center text-sm mt-8 px-4">
         All rights reserved: Lucky Media www.luckymedia.marketing ©
       </div>
-      
     </footer>
-    
   );
 };
 

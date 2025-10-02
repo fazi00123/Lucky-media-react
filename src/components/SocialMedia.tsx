@@ -12,9 +12,9 @@ const SocialMedia: React.FC = () => {
         <div className="w-full lg:w-1/3">
           {/* Heading */}
           <div className="flex justify-center lg:justify-start pl-0 lg:pl-12 2xl:pl-24">
-            <h3 className="inline-block text-2xl sm:text-4xl md:text-[44px] lg:text-5xl xl:text-[40px] font-bold text-black bg-[#00ff99] px-3 sm:px-5 py-3 sm:py-6 rounded-lg">
+            <h2 className="inline-block text-2xl sm:text-4xl md:text-[44px] lg:text-5xl xl:text-[40px] font-bold text-black bg-[#00ff99] px-3 sm:px-5 py-3 sm:py-6 rounded-lg">
               Social media
-            </h3>
+            </h2>
           </div>
 
           {/* Mobile Video Mockup */}
@@ -39,13 +39,13 @@ const SocialMedia: React.FC = () => {
         </div>
 
         {/* 🔸 Right Content */}
-        <div className="w-full lg:w-2/3 mt-24 lg:mt-0 px-4">
+        <div className="w-full lg:w-2/3 mt-24 lg:mt-0 md:px-4 px-5">
           {/* Swiper Slider */}
           <SocialSlider />
 
           {/* Description */}
           <div className="text-center flex justify-center mt-10">
-            <p className="text-white text-[15px] sm:text-[18px] md:text-[20px] leading-[28px] md:leading-[36px] text-center w-[80%]">
+            <p className="text-white text-[15px] sm:text-lg md:text-xl leading-[28px] md:leading-[36px] text-center md:w-[80%]">
               We create engaging, professional, and impactful posts that
               resonate with the FlexToday audience. Our goal is to capture the
               user’s attention, whether they are scrolling through their feed or

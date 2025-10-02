@@ -3,11 +3,11 @@ import fit8Img from "../assets/fit8-01.png"; // ✅ Import image
 
 const NewWebsite: React.FC = () => {
   return (
-    <section>
+    <section id="websites">
       <div className="flex flex-col lg:flex-row items-center gap-12 mt-16">
         
         {/* Left Side Content */}
-        <div className="lg:w-1/2 text-center w-full px-4 sm:px-12 md:px-16">
+        <div className="lg:w-1/2 text-center w-full px-5 sm:px-12 md:px-16">
           
           {/* Title */}
           <div className="flex justify-center lg:justify-start">

@@ -1,4 +1,4 @@
-.embla {
+/* .embla {
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -20,7 +20,7 @@
 
 .embla__slide {
   position: relative;
-  min-width: 60%; /* visible width of each slide */
+  min-width: 60%; 
   padding: 0 10px;
   transition: transform 220ms ease;
   will-change: transform;
@@ -55,4 +55,4 @@
 .embla__prev:hover,
 .embla__next:hover {
   background: #555;
-}
+} */

@@ -21,15 +21,15 @@ import sliderImg6 from "../assets/4-salider (7).png";
 
 const Social: React.FC = () => {
   return (
-    <section>
+    <section id="social">
       <div className="bg-black flex flex-col lg:flex-row py-16 2xl:py-24 mt-20">
         {/* Left Content */}
         <div className="w-full lg:w-1/3">
           {/* Heading */}
           <div className="flex justify-center lg:justify-start pl-0 lg:pl-12 2xl:pl-24">
-            <h3 className="inline-block text-2xl sm:text-4xl md:text-[44px] lg:text-5xl xl:text-[44px] font-bold text-black bg-[#00ff99] px-3 sm:px-5 py-3 sm:py-6 rounded-lg">
+            <h2 className="inline-block text-2xl sm:text-4xl md:text-[44px] lg:text-5xl xl:text-[44px] font-bold text-black bg-[#00ff99] px-3 sm:px-5 py-3 sm:py-6 rounded-lg">
               Social media
-            </h3>
+            </h2>
           </div>
 
           {/* Mobile Video (Phone Mockup Style) */}
@@ -91,7 +91,7 @@ const Social: React.FC = () => {
 
           {/* Description */}
           <div className="text-center flex justify-center mt-8">
-            <p className="text-white text-sm sm:text-lg md:text-xl leading-[36px] sm:leading-[28px] lg:leading-[36px] text-center px-4 md:w-[80%] w-full pb-10">
+            <p className="text-white text-sm sm:text-lg md:text-xl leading-[36px] sm:leading-[28px] lg:leading-[36px] text-center md:w-[80%] w-full pb-10">
               Our vibrant social media posts are crafted to captivate and engage
               the right audience. With a focus on tailored content, we ensure
               each post resonates, driving engagement and results. One of our

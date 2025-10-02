@@ -12,7 +12,7 @@ const OurExperience: React.FC = () => {
   return (
 
     
-    <section>
+    <section id="experience">
       <div>
         {/* 🔸 Heading */}
         <div className="text-center w-full items-center justify-center flex mt-10 sm:mt-16 md:mt-20 lg:mt-28">
@@ -29,7 +29,7 @@ const OurExperience: React.FC = () => {
         <p
           className="text-center 
             text-sm sm:text-lg md:text-xl lg:text-2xl
-            px-8 sm:px-10 md:px-20 lg:px-[120px] 
+            px-5 sm:px-10 md:px-20 lg:px-[120px] 
             leading-[28px] sm:leading-[32px] md:leading-[36px] lg:leading-[43px] 
             mt-6 mb-20 sm:mt-8 md:mt-10"
         >

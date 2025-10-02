@@ -2,7 +2,7 @@ import React from "react";
 
 const WorkShowcase: React.FC = () => {
   return (
-    <section>
+    <section id="home">
       <div>
         {/* 🔸 Main Heading */}
         <div className="px-4 sm:px-10 md:px-20  pt-10 sm:pt-20 lg:pt-[90px]">

@@ -10,14 +10,11 @@ const PermanentCooperation: React.FC = () => {
       </div>
 
       {/* 🔸 Right Side: Text Content */}
-      <div className="bg-black/90 text-white w-full lg:w-1/2 px-4 sm:px-6 md:px-10 py-8 sm:py-12 md:py-16 lg:py-24 flex flex-col justify-center items-center">
+      <div className="bg-black/90 text-white w-full lg:w-1/2 px-5 md:px-10 py-8 sm:py-12 md:py-16 lg:py-24 flex flex-col justify-center items-center">
         {/* Subheading */}
         <h2
           className="inline-block rounded-md  
-            text-lg sm:text-xl md:text-[26px] 
-            font-[800] 
-            leading-[20px] sm:leading-[30px] md:leading-[40px] lg:leading-[48px] 
-            text-black bg-[#00FF9C] px-3 sm:px-5 py-3 sm:py-6 mt-8 "
+            px-3 sm:px-5 py-3 lg:text-2xl text-xl font-extrabold flex justify-center rounded-lg bg-[#00ff9c] lg:leading-[41px] leading-[27px] text-black mt-8 "
         >
           Permanent cooperation
         </h2>
@@ -27,7 +24,7 @@ const PermanentCooperation: React.FC = () => {
           className="text-sm sm:text-lg md:text-xl lg:text-2xl 
             text-center 
             leading-[28px] sm:leading-[32px] md:leading-[40px] lg:leading-[41px] 
-            px-6 mt-12 mb-8"
+            md:px-6 mt-12 mb-8"
         >
           We are glad to have the chance to collaborate for the past few years with FlexToday, one of the finest recruitment agencies. 
           Their meticulous and thorough approach to business growth is truly impressive.

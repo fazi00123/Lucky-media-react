@@ -5,7 +5,7 @@ import companyVideo from "../assets/animacja_ogolna_soundadded.mp4";
 const AudianceSection: React.FC = () => {
   return (
     <section className="audience-section">
-      <div className="flex flex-col lg:flex-row gap-8 sm:gap-10 md:gap-12 mt-10 sm:mt-16 md:mt-24 lg:mt-24">
+      <div className="flex flex-col lg:flex-row gap-8 sm:gap-10 md:gap-12 mt-10 sm:mt-16 md:mt-24 lg:mt-24 2xl:mt-40">
         {/* Left Side Content */}
         <div className="lg:w-1/2 w-full text-center lg:text-left xl:pl-16 lg:pl-12 md:px-12 px-5 lg:px-0">
           <div className="flex justify-center lg:justify-start">
@@ -21,8 +21,8 @@ const AudianceSection: React.FC = () => {
           </div>
 
           <p
-            className="text-[#171717] leading-[36px] 
-              text-sm sm:text-lg lg:text-xl lg:pt-12 pt-6"
+            className="text-[#171717] 2xl:leading-10 lg:leading-[36px] leading-6 sm:leading-8 
+              text-sm sm:text-lg lg:text-xl 2xl:text-[22px] pt-6"
           >
             The company’s target audience consisted of young individuals eager to
             work abroad. To effectively engage this demographic, we designed the
@@ -39,7 +39,7 @@ const AudianceSection: React.FC = () => {
 
         {/* Right Side Video Box */}
         <div
-          className="flex justify-center lg:justify-start mt-10 sm:mt-16 lg:mt-60 
+          className="flex justify-center lg:justify-start mt-10 sm:mt-16 lg:mt-60  2xl:mt-80
           w-full lg:w-1/2"
         >
           <div
@@ -53,7 +53,7 @@ const AudianceSection: React.FC = () => {
               className="absolute w-[90%] 
                  lg:left-[55%] lg:-translate-x-1/2 
                 h-[200px] sm:h-[280px] md:h-[460px] lg:h-[550px] xl:h-[750px]
-                top-[-40px] sm:top-[-90px] md:top-[-120px] lg:top-[-170px] xl:top-[-300px] "
+                top-[-40px] sm:top-[-90px] md:top-[-120px] lg:top-[-170px] xl:top-[-300px] 2xl:-top-[340px] "
             >
               <video
                 className="w-full h-full object-cover"

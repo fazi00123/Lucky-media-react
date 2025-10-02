@@ -1,6 +1,10 @@
 import React from "react";
+
+
+import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import WorkShowcase from "../components/WorkShowcase";
+
 import OnlineAdvertising from "../components/OnlineAdvertising";
 import OurExperience from "../components/OurExperience";
 import PermanentCooperation from "../components/PermanentCooperation";
@@ -10,7 +14,9 @@ import SocialMedia from "../components/SocialMedia";
 import VideoGrid from "../components/VideoGrid";
 import PaidAds from "../components/PaidAds";
 import BrandingExcellence from "../components/BrandingExcellence";
-import EmblaCarousel from "../components/EmblaCarousel";
+
+import Slider from "../components/Slider";
+// import EmblaCarousel from "../components/EmblaCarousel";
 import QuickBrandBooster from "../components/QuickBrandBooster";
 import NewWebsite from "../components/NewWebsite";
 import Simulation from "../components/Simulation";
@@ -36,12 +42,15 @@ import EndSection from "../components/EndSection";
 
 import Footer from "../components/Footer";
 import ScrollToTopButton from "../components/ScrollToTopButton";
+// import { Sidebar } from "lucide-react";
 
 const Portfolio: React.FC = () => {
   return (
     <>
+    <Sidebar />
       <Navbar />
       <WorkShowcase />
+     
        <OnlineAdvertising />
         <OurExperience />
         <PermanentCooperation />
@@ -51,7 +60,8 @@ const Portfolio: React.FC = () => {
        <VideoGrid />
        <PaidAds />
         <BrandingExcellence />
-        <EmblaCarousel />
+        <Slider />
+        {/* <EmblaCarousel /> */}
         <QuickBrandBooster />''
         <NewWebsite />
         <Simulation />

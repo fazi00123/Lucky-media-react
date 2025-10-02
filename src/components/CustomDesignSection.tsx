@@ -53,13 +53,14 @@ const CustomDesignSection: React.FC = () => {
             </h3>
           </div>
 
-          {/* 🔹 Mobile Video */}
+          {/* 🔹 book Video */}
           <div className="flex justify-start mt-24 sm:mt-20 md:mt-28 lg:mt-60">
             <div className="bg-[#00FF9C] rounded-tr-[30px] sm:rounded-tr-[40px] md:rounded-tr-[50px] 
                           rounded-br-[30px] sm:rounded-br-[40px] md:rounded-br-[50px] 
                           p-4 sm:p-6 w-[85%] 
-                          relative h-[180px] md:h-[260px] lg:h-[220px] 2xl:h-[270px]">
-              <div className="xl:top-[-90px] top-[-40px] top-[-30px] absolute -rotate-12 w-full">
+                          relative h-[180px] md:h-[290px] lg:h-[250px] 2xl:h-[330px]">
+              <div className="xl:top-[-90px] 2xl:-top-36 top-[-40px] top-[-30px] absolute -rotate-12 w-full ">
+                <div className="lg:w-[165%] 2xl:-ml-32 lg:-ml-20">
                 <video
                   className="w-full h-full object-cover "
                   autoPlay
@@ -70,14 +71,15 @@ const CustomDesignSection: React.FC = () => {
                   <source src={menuVideo} type="video/mp4" />
                 </video>
               </div>
+              </div>
             </div>
           </div>
         </div>
 
         {/* 🔸 Right Side Content */}
-        <div className="w-full lg:w-2/3 mt-16 lg:mt-0 px-4">
+        <div className="w-full lg:w-2/3 mt-16 lg:mt-0 px-5">
           {/* Swiper Slider */}
-          <div className="2xl:px-40 xl:px-20 md:px-10 rounded-none">
+          <div className="xl:px-20 md:px-10 rounded-none">
           <CustomSlider />
           </div>
           {/* <div className="w-full">
@@ -97,7 +99,7 @@ const CustomDesignSection: React.FC = () => {
           </div> */}
 
           {/* 🔹 Description Video */}
-          <div className="w-full flex justify-center items-center pt-20">
+          <div className="pt-20">
             <div className="xl:px-40 md:px-10">
               <video
                 className="w-full h-full object-cover"

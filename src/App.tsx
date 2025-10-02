@@ -62,11 +62,12 @@
 //     </div>
 //   );
 // }
-
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
+import Privacy from "./pages/Privacy";
+import Cookies from "./pages/Cookies";
 import Preloader from "./components/Preloader";
 import "./App.css";
 
@@ -76,19 +77,21 @@ const PageWrapper: React.FC = () => {
 
   useEffect(() => {
     setLoading(true);
-    const timer = setTimeout(() => setLoading(false), 3000); // 2 sec delay
+    const timer = setTimeout(() => setLoading(false), 4000); // 2 sec delay
     return () => clearTimeout(timer);
   }, [location.pathname]);
 
   return (
     <>
       <Preloader show={loading} />
-      {!loading && (
+      <div style={{ display: loading ? "none" : "block" }}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/Privacy" element={<Privacy />} />
+          <Route path="/Cookies" element={<Cookies />} />
         </Routes>
-      )}
+      </div>
     </>
   );
 };
@@ -102,6 +105,7 @@ const App: React.FC = () => {
 };
 
 export default App;
+
 
 
 

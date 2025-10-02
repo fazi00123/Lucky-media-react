@@ -21,12 +21,9 @@ const QuickBrandBooster: React.FC = () => {
                       flex flex-col justify-center items-center pt-12 pb-20">
         
         {/* Heading */}
-        <h3 className="bg-[#00FF9C] text-black font-extrabold 
-                       text-xl sm:text-2xl md:text-[25px] 
-                       px-3 sm:px-5 py-3 sm:py-6 rounded-md mb-4 
-                       w-[250px] sm:w-[300px] md:w-[300px] text-center">
+        <h2 className="px-3 sm:px-5 py-3 lg:text-2xl text-xl font-extrabold flex justify-center rounded-lg bg-[#00ff9c] lg:leading-[41px] leading-[27px] text-black">
           Quick brand booster
-        </h3>
+        </h2>
 
         {/* Description */}
         <p className="text-sm sm:text-lg md:text-xl lg:text-2xl 

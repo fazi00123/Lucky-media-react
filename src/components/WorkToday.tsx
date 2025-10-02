@@ -19,10 +19,10 @@ const WorkToday: React.FC = () => {
         {/* Right side */}
         <div className="bg-[#171717] lg:w-1/2 2xl:py-36 py-20">
           <div className="flex justify-center">
-            <div className="px-3 sm:px-5 py-3 sm:py-6 lg:text-2xl text-xl font-extrabold flex justify-center rounded-lg bg-[#00ff9c] lg:leading-[41px] leading-[27px]">
-                <h3>
+            <div className="px-3 sm:px-5 py-3 lg:text-2xl text-xl font-extrabold flex justify-center rounded-lg bg-[#00ff9c] lg:leading-[41px] leading-[27px] text-black">
+                <h2>
               Permament cooperation
-              </h3>
+              </h2>
             </div>
           </div>
 

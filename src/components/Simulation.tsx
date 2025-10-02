@@ -3,7 +3,7 @@ import artworkVideo from "../assets/Artwork-1.webm"; // ✅ Import video
 
 const Simulation: React.FC = () => {
   return (
-    <section className="mt-16 lg:mt-0 px-4 md:px-12 lg:px-20">
+    <section className="mt-16 lg:mt-0 px-5 md:px-12 lg:px-20">
       <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
         
         {/* Left Side (Video Section) */}
@@ -35,7 +35,7 @@ const Simulation: React.FC = () => {
           <p
             className="text-[#1b1b1b] text-sm sm:text-base md:text-xl 
             leading-[28px] sm:leading-[32px] md:leading-[36px] 
-            lg:px-10 px-9"
+            lg:px-10 md:px-9"
           >
             Our website creation process begins with a detailed brief to understand
             your vision, goals, and target audience. We then move into discussions,

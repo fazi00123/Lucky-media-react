@@ -5,7 +5,7 @@ const OnlineAdvertising: React.FC = () => {
   return (
     <section className="w-full flex flex-col lg:flex-row mt-20 sm:mt-16 md:mt-20 lg:mt-28">
       {/* 🔸 Left Side: Image */}
-      <div className="bg-[#00FF9C] flex justify-center items-center w-full lg:w-1/2 p-4 sm:p-8 md:p-10 lg:p-14">
+      <div className="bg-[#00FF9C] flex justify-center items-center w-full lg:w-1/2 p-8 md:p-10 lg:p-14">
         <img
           src={reklamaImage}
           alt="Online Advertising"
@@ -16,20 +16,16 @@ const OnlineAdvertising: React.FC = () => {
       {/* 🔸 Right Side: Text Content */}
       <div className="bg-black/90 text-white w-full lg:w-1/2 p-6 sm:p-10 md:p-12 lg:p-16 flex flex-col justify-center items-center text-center">
         {/* Subheading */}
-        <h3
-          className="inline-block rounded-md px-2 sm:px-5 
-          text-lg sm:text-xl md:text-[26px] 
-          font-extrabold 
-          leading-[20px] sm:leading-[30px] md:leading-[40px] lg:leading-[48px] 
-          text-black bg-[#00FF9C] py-5 lg:py-3 mt-16"
+        <h2
+          className="inline-block rounded-md 
+          px-3 sm:px-5 py-3 lg:text-2xl text-xl font-extrabold flex justify-center rounded-lg bg-[#00ff9c] lg:leading-[41px] leading-[27px] text-black mt-16"
         >
           Online advertising &amp; marketing
-        </h3>
+        </h2>
 
         {/* Paragraph */}
         <p
           className="mt-10 sm:mt-8 md:mt-10 lg:mt-12 
-          px-8
           text-sm sm:text-lg md:text-xl lg:text-2xl 
           leading-[24px] sm:leading-[30px] md:leading-[36px] lg:leading-[41px] mb-10"
         >

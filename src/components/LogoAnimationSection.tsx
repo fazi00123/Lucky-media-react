@@ -21,7 +21,7 @@ const LogoAnimationSection: React.FC = () => {
           </div>
           
           {/* Normal text */}
-          <p className="text-[#1b1b1b] order-1 md:leading-[36px] xl:leading-[40px] text-base md:text-xl lg:text-lg xl:text-xl pt-4 lg:text-start text-center px-5">
+          <p className="text-[#1b1b1b] order-1 leading-[28px] md:leading-[36px] xl:leading-[40px] text-sm md:text-xl lg:text-lg xl:text-xl pt-4 lg:text-start text-center px-5">
             In today’s digital landscape, social media is dominated by video content.
             To stand out, your brand needs to be dynamic, memorable, and visually compelling. That’s why
             investing in logo animation is a game-changer. Social media thrives on videos, and a logo
@@ -32,7 +32,7 @@ const LogoAnimationSection: React.FC = () => {
           </p>
 
           {/* Bold serif text (mobile par sabse last) */}
-          <p className="font-bold pt-4 order-3 lg:order-2 md:leading-[36px] text-base xl:leading-[40px] md:text-xl lg:text-lg xl:text-xl lg:text-start text-center px-5">
+          <p className="font-bold pt-4 order-3 lg:order-2 md:leading-[36px] leading-[28px] text-am xl:leading-[40px] md:text-xl lg:text-lg xl:text-xl lg:text-start text-center px-5">
             FitDieta’s house brand is all about healthy food, friendly vibes, and
             designs that look good enough try the food. To capture this essence, we created a logo animation
             that extends the playful, tasty appeal of apples and carrots, making them look irresistibly

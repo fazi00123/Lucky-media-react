@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import LuckyMediaSection from "../components/LuckyMediaSection";
+import AboutCeo from "../components/AboutCeo"
 import ServicesSection from "../components/ServicesSection";
 import PortfolioSection from "../components/PortfolioSection";
 import StepsSection from "../components/StepsSection";
@@ -14,6 +15,7 @@ const Home: React.FC = () => {
       <Navbar />
              <HeroSection />
              <LuckyMediaSection />
+              <AboutCeo />
                <ServicesSection />
                  <PortfolioSection />
                   <StepsSection />

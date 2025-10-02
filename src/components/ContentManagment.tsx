@@ -7,7 +7,7 @@ import postyImage1 from "../assets/konfa-01.png";
 const ContentManagment: React.FC = () => {
   return (
     <section>
-      <div className="flex flex-col lg:flex-row items-center gap-12 2xl:gap-36 mt-16 2xl:mt-24 px-5 sm:px-12 lg:px-0 lg:pl-12 xl:pl-16">
+      <div className="flex flex-col lg:flex-row items-center gap-12 2xl:gap-20 mt-16 2xl:mt-36 px-5 sm:px-12 lg:px-0 lg:pl-12 xl:pl-16">
         {/* ================= Left Side Content ================= */}
         <div className="w-full lg:w-1/2 text-center">
           {/* Section Title */}
@@ -46,13 +46,13 @@ const ContentManagment: React.FC = () => {
             className="bg-[#00FF9C] rounded-tl-[40px] sm:rounded-tl-[50px] md:rounded-tl-[60px] 
                         rounded-bl-[40px] sm:rounded-bl-[50px] md:rounded-bl-[60px] 
                         p-4 sm:p-6 w-full  
-                        relative h-[200px] sm:h-[350px] md:h-[400px] lg:h-[300px] xl:h-[350px] 2xl:h-[550px] ml-auto"
+                        relative h-[200px] sm:h-[350px] md:h-[400px] lg:h-[300px] xl:h-[350px] 2xl:h-[450px] ml-auto"
           >
             {/* ✅ Image option */}
             <img
               src={postyImage1}
               alt="Content Managment"
-              className="w-[350px] sm:w-[200px] md:w-[650px] lg:w-[400px] xl:w-[600px] 2xl:w-[800px] md:top-[-260px] lg:top-[-120px] xl:top-[-230px] -top-36 absolute right-[15px]"
+              className="w-[350px] sm:w-[200px] md:w-[650px] lg:w-[400px] xl:w-[600px] 2xl:w-[800px] md:top-[-260px] lg:top-[-120px] xl:top-[-230px] 2xl:top-[-350px] -top-36 absolute right-[15px]"
             />
 
             {/* ✅ Video option (uncomment if you want video) */}
