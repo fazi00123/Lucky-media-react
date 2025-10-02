@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
         }
       `}</style>
 
-      <header className="w-full 2xl:px-12 px-8 py-8 flex flex-col lg:flex-row justify-between gap-10 bg-black md:bg-white items-center">
+      <header className="w-full px-4 sm:px-8 md:px-16 lg:px-40 xl:px-28 py-8 flex flex-col lg:flex-row justify-between gap-10 bg-black md:bg-white items-center">
         {/* Logo */}
         <div className="flex items-center gap-2 bg-black w-full lg:w-1/3 px-4 lg:px-[60px] py-1 rounded-[10px] justify-center">
           <img className="w-[200px]" src={logo} alt="Logo" />

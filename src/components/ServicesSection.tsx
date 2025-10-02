@@ -4,7 +4,7 @@ const ServicesSection: React.FC = () => {
   return (
     <section className=" mt-16 sm:mt-32">
       {/* Top section */}
-      <div className="flex flex-col lg:flex-row flex-wrap items-center md:items-start justify-between gap-6 ltext-center lg:text-left mb-28 sm:p-8 2xl:p-12">
+      <div className="flex flex-col lg:flex-row flex-wrap items-center md:items-start justify-between gap-6 ltext-center lg:text-left mb-28 sm:pt-8 2xl:pt-12 px-4 sm:px-8 md:px-16 lg:px-40 xl:px-28">
         <div>
           <h2 className="bg-[#00FF9C] text-black text-[48px] sm:text-[40px] font-semibold md:text-[50px] lg:text-[51px] px-3 py-1 rounded-lg inline-block mt-8 lg:mt-0">
             Services

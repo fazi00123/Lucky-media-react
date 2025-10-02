@@ -4,7 +4,7 @@ import icon3 from "../assets/icon-3.svg";
 
 const LuckyMediaSection: React.FC = () => {
   return (
-    <section className="bg-black text-white px-[30px] sm:px-6 md:px-8 2xl:px-12 pt-[120px] pb-10 sm:py-20 md:py-24 mt-20 sm:mt-[150px] md:mt-[300px]">
+    <section className="bg-black text-white px-4 sm:px-8 md:px-16 lg:px-40 xl:px-28 pt-[120px] pb-10 sm:py-20 md:py-24 mt-20 sm:mt-[150px] md:mt-[300px]">
       <div className=" grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 2xl:gap-20 items-center">
         
         {/* Left side */}

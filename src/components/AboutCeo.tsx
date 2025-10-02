@@ -7,7 +7,7 @@ import DamianImg from "../assets/damian.png";
 const AboutCeo: React.FC = () => {
   return (
     <section>
-      <div className="flex lg:flex-row flex-col items-center 2xl:gap-32 xl:gap-28 gap-10 px-5 md:px-8 2xl:px-12 lg:pt-28 pt-20">
+      <div className="flex lg:flex-row flex-col items-center 2xl:gap-32 xl:gap-28 gap-10 px-4 sm:px-8 md:px-16 lg:px-40 xl:px-28 lg:pt-28 pt-20">
         {/* Left Side */}
         <div className="lg:w-1/2 w-full">
           <div className="flex justify-center items-center">
@@ -45,7 +45,7 @@ const AboutCeo: React.FC = () => {
       </div>
 
       {/* Team Section */}
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 2xl:gap-12 gap-10 2xl:px-12 md:px-8 px-5 lg:pt-20 pt-10">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 2xl:gap-12 gap-10 px-4 sm:px-8 md:px-16 lg:px-40 xl:px-28 lg:pt-20 pt-10">
         {/* Abdul */}
         <div className="flex flex-col">
           <img src={AbdulImg} alt="Abdul Rehman" className="border-b-[5px] border-[#00FF99] rounded-xl" />

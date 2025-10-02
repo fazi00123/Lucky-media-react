@@ -10,8 +10,8 @@ const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="bg-[#00FF9C] text-black pt-20 pb-8 px-6 md:px-12 lg:px-20">
-      <div className="max-w-full flex flex-col sm:flex-row flex-wrap justify-evenly gap-8">
+    <footer className="bg-[#00FF9C] text-black pt-20 pb-8 px-4 sm:px-8 md:px-16 lg:px-40 xl:px-28">
+      <div className="max-w-full flex flex-col sm:flex-row flex-wrap justify-between gap-8">
         {/* Logo + Social */}
         <div className="flex flex-col items-center sm:items-start">
           <div className="mb-4">
