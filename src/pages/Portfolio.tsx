@@ -4,9 +4,10 @@ import React from "react";
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import WorkShowcase from "../components/WorkShowcase";
-
 import OnlineAdvertising from "../components/OnlineAdvertising";
 import OurExperience from "../components/OurExperience";
+import Powerflame from "../components/Powerflame";
+import Sweethome from "../components/Sweethome"; 
 import PermanentCooperation from "../components/PermanentCooperation";
 import BrandConsistency from "../components/BrandConsistency";
 import PictorialMark from "../components/PictorialMark";
@@ -14,7 +15,6 @@ import SocialMedia from "../components/SocialMedia";
 import VideoGrid from "../components/VideoGrid";
 import PaidAds from "../components/PaidAds";
 import BrandingExcellence from "../components/BrandingExcellence";
-
 import Slider from "../components/Slider";
 // import EmblaCarousel from "../components/EmblaCarousel";
 import QuickBrandBooster from "../components/QuickBrandBooster";
@@ -39,7 +39,6 @@ import WebsiteFormSection from "../components/WebsiteFormSection";
 import Social from "../components/Social";
 import ServicesVideoSection from "../components/ServicesVideoSection";
 import EndSection from "../components/EndSection";
-
 import Footer from "../components/Footer";
 import ScrollToTopButton from "../components/ScrollToTopButton";
 // import { Sidebar } from "lucide-react";
@@ -50,9 +49,10 @@ const Portfolio: React.FC = () => {
     <Sidebar />
       <Navbar />
       <WorkShowcase />
-     
        <OnlineAdvertising />
         <OurExperience />
+        <Powerflame />
+       <Sweethome />
         <PermanentCooperation />
         <BrandConsistency />
         <PictorialMark />
@@ -84,7 +84,6 @@ const Portfolio: React.FC = () => {
         <Social />
         <ServicesVideoSection />
         <EndSection />
-
       <Footer />
       <ScrollToTopButton />
     </>

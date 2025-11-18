@@ -1,25 +1,29 @@
 import React, { useState } from "react";
 
 // Import images
-import advImg from "../assets/reklama-01.png";
-import flextodayImg from "../assets/logo_blue_Obszar-roboczy-1-1.png";
-import fitditaImg from "../assets/fitdieta.png";
-import selfImg from "../assets/selflab.png";
-import konImg from "../assets/konfederacja.png";
-import samsaraImg from "../assets/blackwhite-480x471.png";
-import worktodayImg from "../assets/black1.png";
+import flameImg from "../assets/flame.png";
+import sweethomeImg from "../assets/sweethome.png";
+import logozImg from "../assets/logoz.png";
+import xImg from "../assets/x.png";
+import fitImg from "../assets/fit.png";
+import selfImg from "../assets/self.png";
+import konfedImg from "../assets/konfed.png";
+import samsaraImg from "../assets/samsara.png";
+import workImg from "../assets/work.png";
 
 const Sidebar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const sections = [
-    { id: "advertising", label: "advertising", img: advImg, className: "bg-[#00ff9c] text-white" },
-    { id: "flextoday", label: "flextoday", img: flextodayImg, className: "bg-white text-black" },
-    { id: "fitdieta", label: "fitdieta", img: fitditaImg, className: "bg-[#00ff9c] text-white" },
-    { id: "selflab", label: "selflab", img: selfImg, className: "bg-white text-white" },
-    { id: "konfederacja", label: "konfederacja", img: konImg, className: "bg-[#00ff9c] text-white" },
-    { id: "samsara", label: "samsara", img: samsaraImg, className: "bg-white text-white" },
-    { id: "worktoday", label: "worktoday", img: worktodayImg, className: "bg-[#00ff9c] text-white" },
+    { id: "flame", label: "flame", img: flameImg, className: "" },
+    { id: "sweethome", label: "sweethome", img: sweethomeImg, className: "" },
+    { id: "logoz", label: "logoz", img: logozImg, className: "" },
+    { id: "x", label: "x", img: xImg, className: "" },
+    { id: "fit", label: "fit", img: fitImg, className: "" },
+    { id: "selflob", label: "selflob", img: selfImg, className: "" },
+    { id: "konfed", label: "konfed", img: konfedImg, className: "" },
+    { id: "samsara", label: "samsara", img: samsaraImg, className: "" },
+    { id: "worktoday", label: "worktoday", img: workImg, className: "" },
   ];
 
   const handleScroll = (id: string) => {
